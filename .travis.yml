@@ -16,10 +16,10 @@ before_script:
 deploy:
   provider: heroku
   api_key:
-    secure: 3f57ff05-b317-4b08-99f4-77649d64aea8
-    app: projet_backend_dep
-  on:
-    repo: meldBayi/projet_backend
+    secure: c38dd210-60c4-4a56-9613-543d0c196b72
+    app: backndprojectapp
+  run:
+    - "bundle exec rails db:migrate"
 
 
 #language: ruby
