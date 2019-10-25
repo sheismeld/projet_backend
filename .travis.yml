@@ -18,8 +18,7 @@ deploy:
   api_key:
     secure: c38dd210-60c4-4a56-9613-543d0c196b72
     app: backndprojectapp
-  run:
-    - "bundle exec rails db:migrate"
+
 
 
 #language: ruby
