@@ -7,8 +7,8 @@ class StudentTest < ActiveSupport::TestCase
     assert_equal [:name, :lasts_name], student.errors.keys
 
 
-    student.name = "Gerard"
-    student.last_name= "Bouchard"
+    student.name = "Name"
+    student.last_name= "FirstName"
     assert student.valid?
     
   end
